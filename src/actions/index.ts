@@ -1,7 +1,7 @@
 /* eslint-disable import/prefer-default-export */
 import * as api from '../api';
 
-export const getArticles = () => async (dispatch) => {
+export const getArticles = () => async (dispatch: any) => {
   try {
     const { data } = await api.fetchArticles();
 
