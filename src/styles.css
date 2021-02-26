@@ -85,6 +85,11 @@ a {
 
 a:hover h2, a:hover h1 {
   text-decoration: underline;
+  color: #6699ff;
+}
+
+a:hover p {
+  color: #6699ff;
 }
 
 nav a {
@@ -125,27 +130,28 @@ hr {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url(https://i.pinimg.com/originals/2c/37/53/2c37538ad1d9a09852c9ec8638c5fa8b.png);
+  background-image: url(https://wallpaperaccess.com/full/17520.jpg);
   height: 100vh;
   text-align: center;
 }
 
 .hero div {
-  text-shadow: 0 0 10px#220044;
+  text-shadow: 0 0 5px#100022;
 }
 
 .hero h1 {
-  font-size: 5.4rem;
+  font-size: 7.2rem;
 }
 
 .hero p {
-  font-size: 2.4rem;
+  font-size: 3.6rem;
   display: inline;
 }
 
 .hero a {
   display: inline;
   color: #00aaee;
+  font-size: 3.6rem;
 }
 
 .hero a:hover {
@@ -156,9 +162,12 @@ hr {
 
 .hero em {
   color: #eee;
-  font-size: 1.8rem;
+  font-size: 2.4rem;
 }
 
+.hero .api {
+  font-size: 2.4rem;
+}
 
 /* Articles */
 
@@ -176,13 +185,13 @@ hr {
 }
 
 article {
-  background: #102a81;
+  background: #002266;
   padding: 15px;
   border-radius: 2px;
-  border-left: 5px solid #330044;
-  border-bottom: 5px solid #330044;
-  border-top: 5px solid #440055;
-  border-right: 5px solid #440055;
+  border-left: 5px solid #001155;
+  border-bottom: 5px solid #001155;
+  border-top: 5px solid #004488;
+  border-right: 5px solid #004488;
 }
 
 article img {
@@ -193,3 +202,16 @@ article img {
   border-radius: 5px;
 }
 
+@media only screen and (max-width: 600px) {
+  .title {
+    font-size: 1.8rem;
+  }
+  .summary {
+    font-size: 1.6rem;
+  }
+  article img {
+    width: 100%;
+    margin: 0;
+    clear: both;
+  }
+}
