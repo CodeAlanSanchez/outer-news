@@ -85,11 +85,11 @@ a {
 
 a:hover h2, a:hover h1 {
   text-decoration: underline;
-  color: #6699ff;
+  color: #00aaee;
 }
 
 a:hover p {
-  color: #6699ff;
+  color: #00aaee;
 }
 
 nav a {
@@ -185,13 +185,13 @@ hr {
 }
 
 article {
-  background: #002266;
+  background: #3469a2;
   padding: 15px;
   border-radius: 2px;
-  border-left: 5px solid #001155;
-  border-bottom: 5px solid #001155;
-  border-top: 5px solid #004488;
-  border-right: 5px solid #004488;
+  border-left: 5px solid #1a2459;
+  border-bottom: 5px solid #1a2459;
+  border-top: 5px solid #3aa4ce;
+  border-right: 5px solid #3aa4ce;
 }
 
 article img {
