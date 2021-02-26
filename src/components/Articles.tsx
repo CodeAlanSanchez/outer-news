@@ -8,7 +8,7 @@ const Articles = () => {
   return (
     <div className="articles">
       {articles.map((article: any) => (
-        <Article article={article} />
+        <Article key={article.id} article={article} />
       ))}
     </div>
   );
