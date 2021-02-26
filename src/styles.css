@@ -21,6 +21,7 @@
 
 html {
   font-size: 62.5%;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -124,6 +125,30 @@ hr {
   color: #fff;
 }
 
+.background-parallax {
+  background: url(https://wallpaperaccess.com/full/17520.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.shadow {
+  text-shadow: -1px 0px .5px#100020, 1px 0px .5px#100020, 0px 0px 3px#100020;
+}
+
+.link {
+  display: inline;
+  color: #00aaee;
+  font-size: 3.6rem;
+}
+
+.link:hover {
+  text-decoration: underline;
+  color: #00ffff;
+  text-shadow: 0 0 10px#00aaee, 0px 0px 3px#100020;
+}
+
 /* Hero */
 
 .hero {
@@ -135,10 +160,6 @@ hr {
   text-align: center;
 }
 
-.hero div {
-  text-shadow: 0 0 5px#100022;
-}
-
 .hero h1 {
   font-size: 7.2rem;
 }
@@ -146,18 +167,6 @@ hr {
 .hero p {
   font-size: 3.6rem;
   display: inline;
-}
-
-.hero a {
-  display: inline;
-  color: #00aaee;
-  font-size: 3.6rem;
-}
-
-.hero a:hover {
-  text-decoration: underline;
-  color: #00ffff;
-  text-shadow: 0 0 10px#00aaee;
 }
 
 .hero em {
@@ -190,8 +199,8 @@ article {
   border-radius: 2px;
   border-left: 5px solid #1a2459;
   border-bottom: 5px solid #1a2459;
-  border-top: 5px solid #3aa4ce;
-  border-right: 5px solid #3aa4ce;
+  border-top: 5px solid #2b8db4;
+  border-right: 5px solid #2b8db4;
 }
 
 article img {
@@ -200,6 +209,51 @@ article img {
   float: left;
   margin: 0 25px 0 0;
   border-radius: 5px;
+}
+
+/* About */
+
+.about {
+  text-align: center;
+  padding: 15% 25%;
+}
+
+.about h1 {
+  font-size: 5.4rem;
+  text-align: center;
+}
+.about p {
+  font-size: 2.4rem;
+}
+.about a {
+  font-size: 2.4rem;
+}
+
+/* Footer */
+
+.footer {
+  text-align: center;
+  padding: 100px 0;
+  background: #090909;
+}
+
+.footer h1 {
+  font-size: 5.4rem;
+  margin: 0 0 25px;
+}
+
+.footer a {
+  color: #00aaee;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+  color: #00ffff;
+  text-shadow: 0 0 10px#00aaee;
+}
+
+.email {
+  font-size: 2.4rem;
 }
 
 @media only screen and (max-width: 600px) {
