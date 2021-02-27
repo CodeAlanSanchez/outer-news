@@ -126,7 +126,7 @@ hr {
 }
 
 .background-parallax {
-  background: url(https://wallpaperaccess.com/full/17520.jpg);
+  background: url("img/background-space.jpg");
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -155,7 +155,7 @@ hr {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url(https://wallpaperaccess.com/full/17520.jpg);
+  background-image: url("/img/background-space.jpg");
   height: 100vh;
   text-align: center;
 }
