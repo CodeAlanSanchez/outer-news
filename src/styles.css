@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
 
 *,
 *:before,
@@ -64,7 +64,7 @@ h2,
 h3,
 p,
 a {
-  color: #fff;
+  color: rgb(255, 255, 255);
   font-size: 2.4rem;
 }
 
@@ -101,7 +101,7 @@ nav a {
 nav a:hover {
   text-decoration: underline;
   background: #ffffff50;
-  color: #000;
+  color: rgb(255, 255, 255);
 }
 
 ul {
@@ -122,7 +122,7 @@ img {
 }
 
 hr {
-  color: #fff;
+  color: rgb(255, 255, 255);
 }
 
 .background-parallax {
@@ -170,7 +170,7 @@ hr {
 }
 
 .hero em {
-  color: #eee;
+  color: rgb(255, 255, 255);
   font-size: 2.4rem;
 }
 
@@ -181,7 +181,7 @@ hr {
 /* Articles */
 
 .articles-heading {
-  margin: 0 0 25px;
+  margin: 0 0 50px;
 }
 
 .articles {
@@ -190,17 +190,23 @@ hr {
   grid-gap: 25px;
   gap: 25px;
   padding: 25px 25px;
-  background: #090909;
+  background: #121730;
+  font-family: 'Montserrat', sans-serif;
+  line-height: 32px;
 }
 
 article {
-  background: #3469a2;
-  padding: 15px;
-  border-radius: 2px;
-  border-left: 5px solid #1a2459;
-  border-bottom: 5px solid #1a2459;
-  border-top: 5px solid #2b8db4;
-  border-right: 5px solid #2b8db4;
+  background: #ffffff;
+  padding: 10px;
+  border-radius: 15px;
+  border-left: 5px solid #1c77ff;
+  border-bottom: 5px solid #1e78ff;
+  border-top: 5px solid #ffa600;
+  border-right: 5px solid #ffa600;
+}
+
+article .title {
+  margin: 0 0 15px;
 }
 
 article img {
@@ -209,6 +215,10 @@ article img {
   float: left;
   margin: 0 25px 0 0;
   border-radius: 5px;
+}
+
+article h1, article h2, article h3, article h4, article p, article a {
+  color: #000000;
 }
 
 /* About */
