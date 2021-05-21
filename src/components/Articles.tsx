@@ -7,9 +7,9 @@ const Articles = () => {
 
   return (
     <div className="articles">
-      {articles.map((article: any) => (
+      {articles.length > 0 ? articles.map((article: any) => (
         <Article key={article.id} article={article} />
-      ))}
+      )) : <div><h1>Third Party API seems to down...</h1></div>}
     </div>
   );
 };
