@@ -122,7 +122,8 @@ img {
 }
 
 hr {
-  color: rgb(255, 255, 255);
+  border: 1px solid #fff;
+  margin-top: 12px;
 }
 
 .background-parallax {
@@ -134,7 +135,12 @@ hr {
 }
 
 .shadow {
-  text-shadow: 0px 0px 5px #000000;
+  text-shadow: 0px 0px 4px #000000;
+}
+
+.box-shadow {
+  background: #00000030;
+  padding: 25px;
 }
 
 .link {
