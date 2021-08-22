@@ -1,6 +1,6 @@
 # Outer News
 
-Website that shows articles from Spaceflight Now, using an api.
+Website that shows space articles using an api.
 
 Made by Alan Sanchez
 
@@ -10,4 +10,4 @@ https://test.spaceflightnewsapi.net/api/v2/articles
 
 ## Link to hosted website
 
-https://outer-news.herokuapp.com/
+https://space.alansanchez.dev/
