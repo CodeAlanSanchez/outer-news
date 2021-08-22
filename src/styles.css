@@ -134,7 +134,7 @@ hr {
 }
 
 .shadow {
-  text-shadow: -1px 0px .5px#100020, 1px 0px .5px#100020, 0px 0px 3px#100020;
+  text-shadow: 0px 0px 5px #000000;
 }
 
 .link {
