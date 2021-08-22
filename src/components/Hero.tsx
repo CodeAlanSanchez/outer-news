@@ -1,8 +1,8 @@
 import React from "react";
 
 const Hero = () => (
-  <div className="hero background-parallax shadow" id="hero">
-    <div>
+  <div className="hero background-parallax" id="hero">
+    <div className="box-shadow">
       <h1>Outer News</h1>
       <p>Articles take you to third-party site</p>
       <hr />
